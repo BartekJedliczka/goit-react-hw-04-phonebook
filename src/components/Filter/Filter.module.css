@@ -1,0 +1,9 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto 10px;
+  align-items: center;
+  font-size: large;
+  text-align: left;
+  padding: 10px 200px 10px 30px;
+}
