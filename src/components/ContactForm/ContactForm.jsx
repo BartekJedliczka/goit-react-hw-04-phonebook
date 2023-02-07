@@ -7,13 +7,13 @@ const ContactForm = ({ onSubmit }) => {
   const [number, setNumber] = useState('');
 
   const handleInputChange = event => {
-    const prop = event.cureentTarget.name;
+    const prop = event.currentTarget.name;
     switch (prop) {
       case 'name':
-        setName(event.cureentTarget.value);
+        setName(event.currentTarget.value);
         break;
       case 'number':
-        setNumber(event.cureentTarget.value);
+        setNumber(event.currentTarget.value);
         break;
       default:
         throw new Error('Error');
